@@ -1,0 +1,33 @@
+.point-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.2em;
+    min-width: 99vw;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.point-table thead tr th {
+    background-color: grey;
+    color: whitesmoke;
+    text-align: left;
+    font-weight: bold;
+}
+
+.point-table th,
+.point-table td {
+    padding: 12px 15px;
+}
+
+.point-table tbody tr {
+    border-bottom: 1px solid gray;
+}
+
+.point-table tbody tr:nth-of-type(even) {
+    background-color:aquamarine;
+}
+
+.point-table tbody tr:last-of-type {
+    border-bottom: 2px solid gray;
+}
